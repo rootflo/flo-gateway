@@ -1,0 +1,20 @@
+{
+    "version": "alpha/v1",
+    "providers": [{
+        "name": "gpt-4",
+        "endpoint": "<sample>/openai/deployments/gpt-4/chat/completions",
+        "type": "azure"
+    }, {
+        "name": "phi-3",
+        "endpoint": "<sample>/v1/chat/completions",
+        "type": "azure"
+    }, {
+        "name": "mixtral",
+        "endpoint": "<sample>/chat/completions",
+        "type": "azure"
+    }, {
+        "name": "anthropic",
+        "endpoint": "<sample>/v1/complete",
+        "type": "azure"
+    }]
+}
